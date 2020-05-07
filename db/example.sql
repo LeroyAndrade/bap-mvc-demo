@@ -1,9 +1,9 @@
 # Dump of table users
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `users`;
+DROP TABLE IF EXISTS `P4MVC`;
 
-CREATE TABLE `users` (
+CREATE TABLE `P4MVC` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `voornaam` varchar(255) DEFAULT NULL,
   `achternaam` varchar(255) DEFAULT NULL,
